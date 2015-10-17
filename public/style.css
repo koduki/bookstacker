@@ -12,21 +12,11 @@ h1 {
 
 .mdl-cell {
   box-sizing: border-box;
-  background-color: #BDBDBD;
-  height: 100px;
-  padding-left: 8px;
-  padding-top: 4px;
   color: white;
+  text-align: center;
 }
-.mdl-cell--1-col {
-	background-color: #26C6DA;
-}
-.mdl-cell--4-col {
-	background-color: #66BB6A;
-}
-.mdl-cell--6-col {
-	background-color:#FFA726;
-}
-.mdl-cell--2-col {
-	background-color:#F48FB1;
+
+.item {
+  width: 150px;
+  color: white;
 }
