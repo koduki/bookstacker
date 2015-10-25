@@ -1,58 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-		<meta charset="UTF-8" />
+  <head>
+    <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+		<title>BookStacker</title>
+    <!-- Not present in the tutorial. Just for basic styling. -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-
-	<!-- Always shows a header, even in smaller screens. -->
-	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-	  <header class="mdl-layout__header">
-	    <div class="mdl-layout__header-row">
-	      <!-- Title -->
-	      <span class="mdl-layout-title">Book★Stack</span>
-	      <!-- Add spacer, to align navigation to the right -->
-	      <div class="mdl-layout-spacer"></div>
-	      <!-- Navigation. We hide it in small screens. -->
-	      <nav class="mdl-navigation mdl-layout--large-screen-only">
-	        <a class="mdl-navigation__link" href="">Link</a>
-	        <a class="mdl-navigation__link" href="">Link</a>
-	        <a class="mdl-navigation__link" href="">Link</a>
-	        <a class="mdl-navigation__link" href="">Link</a>
-	      </nav>
-	    </div>
-	  </header>
-	  <div class="mdl-layout__drawer">
-	    <span class="mdl-layout-title">Title</span>
-	    <nav class="mdl-navigation">
-	      <a class="mdl-navigation__link" href="">Link2</a>
-	      <a class="mdl-navigation__link" href="">Link2</a>
-	      <a class="mdl-navigation__link" href="">Link2</a>
-	      <a class="mdl-navigation__link" href="">Link2</a>
-	    </nav>
-	  </div>
-	  <main class="mdl-layout__content">
-	    <div class="page-content">
-				<div class="demo-grid-1 mdl-grid">
-				  <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet"><img class="item" src="http://cc.bookwalker.jp/0813571/t_x200.jpg" /></div>
-					<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet"><img class="item" src="http://cc.bookwalker.jp/0813571/t_x200.jpg" /></div>
-					<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet"><img class="item" src="http://cc.bookwalker.jp/0813571/t_x200.jpg" /></div>
-					<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet"><img class="item" src="http://cc.bookwalker.jp/0813571/t_x200.jpg" /></div>
-					<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet"><img class="item" src="http://cc.bookwalker.jp/0813571/t_x200.jpg" /></div>
-					<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet"><img class="item" src="http://cc.bookwalker.jp/0813571/t_x200.jpg" /></div>
-					<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet"><img class="item" src="http://cc.bookwalker.jp/0813571/t_x200.jpg" /></div>
-				</div><!-- /.demo-grid-ruler mdl-grid -->
-			</div>
-	  </main>
-	</div>
-
-
-
-</body>
+		<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		<link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="content"></div>
+    <script type="text/babel" src="scripts/app.js"></script>
+  </body>
 </html>
